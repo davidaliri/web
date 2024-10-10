@@ -1,0 +1,100 @@
+* {
+    transition: all 0.25s;
+  }
+  
+  body {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    left: 900px;
+    background-image: url(https://img.freepik.com/fotos-premium/imagen-fondo-simple-elegante_1085074-72259.jpg);
+
+  .portada {
+ 
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    top: 10px;
+  background-color: rgba(141, 15, 15, 0.945);
+  border: solid 2px rgb(92, 92, 92);
+  background-image: url(https://thumbs.dreamstime.com/b/fondo-liviano-de-color-pastel-iridiscente-luz-pantalla-plana-simple-azul-claro-futurista-lujo-arte-gr%C3%A1fico-moderno-belleza-185923320.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  }
+  
+  #encabezado-pregunta {
+    background-color: rgb(149, 191, 192);
+    width: 50vw;
+    min-height: 200px;
+    padding: 15px;
+    margin: auto;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 7px;
+
+  }
+  
+  input[type="radio"]{
+       display: none;
+       width: 100%;
+  }
+  
+  input[type="radio"]:checked + label{
+       background-color: rgba(250, 0, 0, 0.24);
+       color: rgb(255, 255, 255);
+      
+
+  }
+  
+  label{
+       padding: 10px;
+       margin: 2px;
+       width: 50vw;
+       background-color: rgb(255, 255, 255);
+       border: 2px solid rgb(0, 47, 255);
+       border-radius: 15px;
+      
+  }
+  .imagen{
+    height: 10px;
+    width: 10px;
+    border-radius: 3px;
+  
+  }
+  .imagen1{
+    height: 10px;
+    width: 10px;
+    left: 1130px;
+    top: 15px;
+    position: absolute;
+    border-radius: 3px;
+
+    
+    
+ 
+  }
+  /* Estilos específicos para dispositivos móviles */
+@media screen and (max-width: 768px) {
+	label {
+		width: 100%;
+	}
+
+	#encabezado-pregunta {
+		width: 100%;
+	}
+
+	.imagen {
+		font-size: 0.8em;
+		padding: 15px;
+	}
+
+	.imagen1 {
+		font-size: 1.5em;
+		padding: 15px;
+	}
+}
+}
